@@ -1,0 +1,17 @@
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestAppUserFakeRepository.csprojAssemblyReference.cache
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestAppUserFakeRepository.csproj.CoreCompileInputs.cache
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\UnitTestFakeAppUserRepository.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\UnitTestFakeAppUserRepository.pdb
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\P4 Code.exe
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\P4 Code.pdb
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\P4 Code.exe.config
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestAppUserFakeRepository.csproj.CopyComplete
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.dll
+C:\Users\helbl\source\repos\CSC470-P4\P4 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestFakeAppUserRepository.pdb
