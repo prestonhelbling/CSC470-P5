@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace P4_Code
 {
     public partial class FormMain : Form
@@ -19,13 +20,16 @@ namespace P4_Code
             FakeAppUserRepository userDatabase = new FakeAppUserRepository();
             FormLogin formLogin = new FormLogin();
             AppUser user = new AppUser();
-
-            while (!user.IsAuthenticated)
+            formLogin.ShowDialog();
+            while (!user.IsAuthenticated && formLogin.IsOpen)
             {
                 formLogin.ShowDialog();
                 user = formLogin.user;
             }
+            if (!formLogin.IsAuthenticated)
+                Environment.Exit(0);
         }
+
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -41,5 +45,12 @@ namespace P4_Code
         {
 
         }
+
+        private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        
     }
 }

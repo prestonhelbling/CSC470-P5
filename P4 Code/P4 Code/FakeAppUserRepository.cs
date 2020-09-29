@@ -36,6 +36,16 @@ namespace P4_Code
                     EmailAddress = "dora@everybodyletsgo.org",
                     IsAuthenticated = true
                 });
+
+                AppUsers.Add("NotAuthenticated", new AppUser
+                {
+                    UserName = "NotAunthenticated",
+                    Password = "SwiperNoSwiping",
+                    FirstName = "NotAuthenticated",
+                    LastName = "NotAuthenticated",
+                    EmailAddress = "NotAuthenticated@everybodyletsgo.org",
+                    IsAuthenticated = false
+                });
             }
         }
         public bool Login(string UserName, string Password)

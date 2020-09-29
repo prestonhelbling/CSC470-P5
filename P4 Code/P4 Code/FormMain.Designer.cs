@@ -82,25 +82,25 @@
             // selectProjectToolStripMenuItem
             // 
             this.selectProjectToolStripMenuItem.Name = "selectProjectToolStripMenuItem";
-            this.selectProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.selectProjectToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.selectProjectToolStripMenuItem.Text = "&Select Project";
             // 
             // createProjectToolStripMenuItem
             // 
             this.createProjectToolStripMenuItem.Name = "createProjectToolStripMenuItem";
-            this.createProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.createProjectToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.createProjectToolStripMenuItem.Text = "&Create Project";
             // 
             // modifyProjectToolStripMenuItem
             // 
             this.modifyProjectToolStripMenuItem.Name = "modifyProjectToolStripMenuItem";
-            this.modifyProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modifyProjectToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.modifyProjectToolStripMenuItem.Text = "&Modify Project";
             // 
             // removeProjectToolStripMenuItem
             // 
             this.removeProjectToolStripMenuItem.Name = "removeProjectToolStripMenuItem";
-            this.removeProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.removeProjectToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.removeProjectToolStripMenuItem.Text = "&Remove Project";
             // 
             // issueToolStripMenuItem
@@ -118,25 +118,25 @@
             // dashboardToolStripMenuItem
             // 
             this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
-            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.dashboardToolStripMenuItem.Text = "&Dashboard";
             // 
             // recordToolStripMenuItem
             // 
             this.recordToolStripMenuItem.Name = "recordToolStripMenuItem";
-            this.recordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recordToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.recordToolStripMenuItem.Text = "&Record";
             // 
             // modifyToolStripMenuItem
             // 
             this.modifyToolStripMenuItem.Name = "modifyToolStripMenuItem";
-            this.modifyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modifyToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.modifyToolStripMenuItem.Text = "&Modify";
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.removeToolStripMenuItem.Text = "&Remove";
             // 
             // reportToolStripMenuItem
@@ -150,7 +150,7 @@
             this.listByDateRangeToolStripMenuItem,
             this.trendByDateRangeToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.reportToolStripMenuItem.Text = "&Report";
             // 
             // countByAssigneeToolStripMenuItem
@@ -224,6 +224,7 @@
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormMain_FormClosing);
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

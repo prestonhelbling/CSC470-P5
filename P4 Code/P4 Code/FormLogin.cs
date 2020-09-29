@@ -15,7 +15,8 @@ namespace P4_Code
     {
         FakeAppUserRepository userDatabase = new FakeAppUserRepository();
         public AppUser user;
-
+        public bool IsOpen = false;
+        public bool IsAuthenticated = false;
         public FormLogin()
         {
             InitializeComponent();
@@ -42,13 +43,16 @@ namespace P4_Code
             {
                 userDatabase.SetAuthentication(userName, true);
                 user = userDatabase.GetByUserName(userName);
-                
+                IsAuthenticated = true;
                 this.Close();
             }
             // Failure to Authenticate
             else
             {
                 MessageBox.Show("Incorrect Username or Password.", "Attention");
+                UserNameTextBox.Clear();
+                PasswordTextBox.Clear();
+
             }
         }
 
@@ -59,7 +63,12 @@ namespace P4_Code
 
         private void FormLogin_Load(object sender, EventArgs e)
         {
+            IsOpen = true;
+        }
 
+        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            IsOpen = false;
         }
     }
 }

@@ -113,6 +113,7 @@
             this.Text = "Login";
             this.TopMost = true;
             this.UseWaitCursor = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormLogin_FormClosing);
             this.Load += new System.EventHandler(this.FormLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
