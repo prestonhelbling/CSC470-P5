@@ -9,3 +9,14 @@ C:\Users\helbl\source\repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.exe
 C:\Users\helbl\source\repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.pdb
 C:\Users\helbl\source\repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4_Code.FormLogin.resources
 C:\Users\helbl\source\repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4_Code.FormMain.resources
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\bin\Debug\P4 Code.exe.config
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\bin\Debug\P4 Code.exe
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\bin\Debug\P4 Code.pdb
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.csprojAssemblyReference.cache
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4_Code.FormLogin.resources
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4_Code.FormMain.resources
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4_Code.Properties.Resources.resources
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.csproj.GenerateResource.cache
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.csproj.CoreCompileInputs.cache
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.exe
+C:\Users\ander\Source\Repos\CSC470-P4\P4 Code\P4 Code\obj\Debug\P4 Code.pdb

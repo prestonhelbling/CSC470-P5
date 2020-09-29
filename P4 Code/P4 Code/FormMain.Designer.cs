@@ -30,14 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.preferencesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.issueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.requirementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.designToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifyProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.removeProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.issueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dashboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modifyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,6 +47,9 @@
             this.countByDateRangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listByDateRangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.trendByDateRangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.requirementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.designToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,9 +74,34 @@
             this.createProjectToolStripMenuItem,
             this.modifyProjectToolStripMenuItem,
             this.removeProjectToolStripMenuItem});
+            this.preferencesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.preferencesToolStripMenuItem.Name = "preferencesToolStripMenuItem";
             this.preferencesToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
-            this.preferencesToolStripMenuItem.Text = "Preferences";
+            this.preferencesToolStripMenuItem.Text = "&Preferences";
+            // 
+            // selectProjectToolStripMenuItem
+            // 
+            this.selectProjectToolStripMenuItem.Name = "selectProjectToolStripMenuItem";
+            this.selectProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.selectProjectToolStripMenuItem.Text = "&Select Project";
+            // 
+            // createProjectToolStripMenuItem
+            // 
+            this.createProjectToolStripMenuItem.Name = "createProjectToolStripMenuItem";
+            this.createProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.createProjectToolStripMenuItem.Text = "&Create Project";
+            // 
+            // modifyProjectToolStripMenuItem
+            // 
+            this.modifyProjectToolStripMenuItem.Name = "modifyProjectToolStripMenuItem";
+            this.modifyProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.modifyProjectToolStripMenuItem.Text = "&Modify Project";
+            // 
+            // removeProjectToolStripMenuItem
+            // 
+            this.removeProjectToolStripMenuItem.Name = "removeProjectToolStripMenuItem";
+            this.removeProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.removeProjectToolStripMenuItem.Text = "&Remove Project";
             // 
             // issueToolStripMenuItem
             // 
@@ -88,73 +113,31 @@
             this.reportToolStripMenuItem});
             this.issueToolStripMenuItem.Name = "issueToolStripMenuItem";
             this.issueToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
-            this.issueToolStripMenuItem.Text = "Issue";
-            // 
-            // requirementToolStripMenuItem
-            // 
-            this.requirementToolStripMenuItem.Name = "requirementToolStripMenuItem";
-            this.requirementToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
-            this.requirementToolStripMenuItem.Text = "Requirement";
-            // 
-            // designToolStripMenuItem
-            // 
-            this.designToolStripMenuItem.Name = "designToolStripMenuItem";
-            this.designToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.designToolStripMenuItem.Text = "Design";
-            // 
-            // testToolStripMenuItem
-            // 
-            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
-            this.testToolStripMenuItem.Text = "Test";
-            // 
-            // selectProjectToolStripMenuItem
-            // 
-            this.selectProjectToolStripMenuItem.Name = "selectProjectToolStripMenuItem";
-            this.selectProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.selectProjectToolStripMenuItem.Text = "Select Project";
-            // 
-            // createProjectToolStripMenuItem
-            // 
-            this.createProjectToolStripMenuItem.Name = "createProjectToolStripMenuItem";
-            this.createProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.createProjectToolStripMenuItem.Text = "Create Project";
-            // 
-            // modifyProjectToolStripMenuItem
-            // 
-            this.modifyProjectToolStripMenuItem.Name = "modifyProjectToolStripMenuItem";
-            this.modifyProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modifyProjectToolStripMenuItem.Text = "Modify Project";
-            // 
-            // removeProjectToolStripMenuItem
-            // 
-            this.removeProjectToolStripMenuItem.Name = "removeProjectToolStripMenuItem";
-            this.removeProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.removeProjectToolStripMenuItem.Text = "Remove Project";
+            this.issueToolStripMenuItem.Text = "&Issue";
             // 
             // dashboardToolStripMenuItem
             // 
             this.dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
             this.dashboardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.dashboardToolStripMenuItem.Text = "Dashboard";
+            this.dashboardToolStripMenuItem.Text = "&Dashboard";
             // 
             // recordToolStripMenuItem
             // 
             this.recordToolStripMenuItem.Name = "recordToolStripMenuItem";
             this.recordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.recordToolStripMenuItem.Text = "Record";
+            this.recordToolStripMenuItem.Text = "&Record";
             // 
             // modifyToolStripMenuItem
             // 
             this.modifyToolStripMenuItem.Name = "modifyToolStripMenuItem";
             this.modifyToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modifyToolStripMenuItem.Text = "Modify";
+            this.modifyToolStripMenuItem.Text = "&Modify";
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
             this.removeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.removeToolStripMenuItem.Text = "Remove";
+            this.removeToolStripMenuItem.Text = "&Remove";
             // 
             // reportToolStripMenuItem
             // 
@@ -168,7 +151,7 @@
             this.trendByDateRangeToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.reportToolStripMenuItem.Text = "Report";
+            this.reportToolStripMenuItem.Text = "&Report";
             // 
             // countByAssigneeToolStripMenuItem
             // 
@@ -180,7 +163,7 @@
             // listByAssigneeToolStripMenuItem
             // 
             this.listByAssigneeToolStripMenuItem.Name = "listByAssigneeToolStripMenuItem";
-            this.listByAssigneeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listByAssigneeToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.listByAssigneeToolStripMenuItem.Text = "List by Assignee";
             // 
             // countByArtifactToolStripMenuItem
@@ -213,6 +196,24 @@
             this.trendByDateRangeToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.trendByDateRangeToolStripMenuItem.Text = "Trend by Date Range";
             // 
+            // requirementToolStripMenuItem
+            // 
+            this.requirementToolStripMenuItem.Name = "requirementToolStripMenuItem";
+            this.requirementToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.requirementToolStripMenuItem.Text = "&Requirement";
+            // 
+            // designToolStripMenuItem
+            // 
+            this.designToolStripMenuItem.Name = "designToolStripMenuItem";
+            this.designToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.designToolStripMenuItem.Text = "&Design";
+            // 
+            // testToolStripMenuItem
+            // 
+            this.testToolStripMenuItem.Name = "testToolStripMenuItem";
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.testToolStripMenuItem.Text = "&Test";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,6 +224,7 @@
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

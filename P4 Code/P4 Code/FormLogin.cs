@@ -56,5 +56,10 @@ namespace P4_Code
         {
 
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
