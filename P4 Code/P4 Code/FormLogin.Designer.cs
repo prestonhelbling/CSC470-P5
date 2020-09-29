@@ -77,7 +77,7 @@
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(306, 112);
+            this.CancelButton.Location = new System.Drawing.Point(302, 146);
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(104, 27);
             this.CancelButton.TabIndex = 4;
@@ -88,7 +88,7 @@
             // 
             // LoginButton
             // 
-            this.LoginButton.Location = new System.Drawing.Point(430, 112);
+            this.LoginButton.Location = new System.Drawing.Point(430, 146);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(104, 27);
             this.LoginButton.TabIndex = 5;
@@ -101,7 +101,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 175);
+            this.CancelButton = this.CancelButton;
+            this.ClientSize = new System.Drawing.Size(586, 212);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.PasswordTextBoxLabel);

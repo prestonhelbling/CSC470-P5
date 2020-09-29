@@ -54,7 +54,7 @@ namespace P4_Code
 
         private void CancelButton_Click(object sender, EventArgs e)
         {
-
+            Environment.Exit(0);
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
