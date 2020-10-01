@@ -16,6 +16,7 @@ namespace P4_Code
             if (AppUsers == null)
             {
                 AppUsers = new Dictionary<string, AppUser>();
+
                 // Add some default app users
                 AppUsers.Add("BobTheBuilder", new AppUser
                 {
@@ -26,7 +27,6 @@ namespace P4_Code
                     EmailAddress = "bob@canwedoit.org",
                     IsAuthenticated = true
                 });
-
                 AppUsers.Add("DoraTheExplorer", new AppUser
                 {
                     UserName = "DoraTheExplorer",
@@ -36,7 +36,6 @@ namespace P4_Code
                     EmailAddress = "dora@everybodyletsgo.org",
                     IsAuthenticated = true
                 });
-
                 AppUsers.Add("NotAuthenticated", new AppUser
                 {
                     UserName = "NotAunthenticated",
@@ -48,6 +47,7 @@ namespace P4_Code
                 });
             }
         }
+
         public bool Login(string UserName, string Password)
         {
             AppUser user;
@@ -56,7 +56,6 @@ namespace P4_Code
             if (userWithUserNameExists)
                 if (user.Password == Password)
                     return true;
-
             return false;
         }
 

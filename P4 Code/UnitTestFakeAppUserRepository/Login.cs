@@ -7,7 +7,6 @@ namespace UnitTestFakeAppUserRepository
     [TestClass]
     public class Login
     {
-        
         [TestMethod]
         public void LoginWithCorrectCredentialsSuccessful()
         {
@@ -22,6 +21,7 @@ namespace UnitTestFakeAppUserRepository
             //Assert
             Assert.IsTrue(userDatabase.Login(userName, password));
         }
+
         [TestMethod]
         public void LoginWithIncorrectCredentialsFail()
         {
