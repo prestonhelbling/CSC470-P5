@@ -1,0 +1,11 @@
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.exe.config
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.exe
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.pdb
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.csprojAssemblyReference.cache
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5_Code.FormLogin.resources
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5_Code.FormMain.resources
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5_Code.Properties.Resources.resources
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.csproj.GenerateResource.cache
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.csproj.CoreCompileInputs.cache
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.exe
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.pdb
