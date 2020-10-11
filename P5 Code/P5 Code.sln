@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestAppUserFakeRepository", "UnitTestFakeAppUserRepository\UnitTestAppUserFakeRepository.csproj", "{4FD6BE93-317B-408A-8D35-3011B9ED9760}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74C86608-615F-457B-9863-8DD2D9033287} = {74C86608-615F-457B-9863-8DD2D9033287}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Code", "P5 Code\P5 Code.csproj", "{74C86608-615F-457B-9863-8DD2D9033287}"
 EndProject

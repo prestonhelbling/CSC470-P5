@@ -29,3 +29,6 @@ C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\bin\
 C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\obj\Debug\UnitTestAppUserFakeRepository.csproj.CopyComplete
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\bin\Debug\P5 Code.exe
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\bin\Debug\P5 Code.pdb
+C:\Users\helbl\source\repos\CSC470-P5\P5 Code\UnitTestFakeAppUserRepository\bin\Debug\P5 Code.exe.config
