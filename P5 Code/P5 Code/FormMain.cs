@@ -18,6 +18,7 @@ namespace P5_Code
         {
             InitializeComponent();
             FakeAppUserRepository userDatabase = new FakeAppUserRepository();
+            Project projectTest = new Project();
             
             FormLogin formLogin = new FormLogin();
             SelectProject selectProject = new SelectProject();
@@ -32,6 +33,8 @@ namespace P5_Code
                 Environment.Exit(0);
 
             selectProject.ShowDialog();
+            projectTest = selectProject.projectTest;
+            this.Text = "Main -" + projectTest.name;
         }
 
 
