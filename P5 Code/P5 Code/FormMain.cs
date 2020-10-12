@@ -12,17 +12,23 @@ using System.Windows.Forms;
 
 namespace P5_Code
 {
+    
     public partial class FormMain : Form
     {
         Project projectTest = new Project();
+        
+        public FakeProjectRepository projectDatabase = new FakeProjectRepository();
+
+
         public FormMain()
         {
             InitializeComponent();
+
+
+
             FakeAppUserRepository userDatabase = new FakeAppUserRepository();
-            
-            
             FormLogin formLogin = new FormLogin();
-            SelectProject selectProject = new SelectProject();
+            SelectProject selectProject = new SelectProject(projectDatabase);
             AppUser user = new AppUser();
             formLogin.ShowDialog();
             while (!user.IsAuthenticated && formLogin.IsOpen)
@@ -35,7 +41,7 @@ namespace P5_Code
 
             selectProject.ShowDialog();
             projectTest = selectProject.projectTest;
-            this.Text = "Main -" + projectTest.name;
+            this.Text = "Main - " + projectTest.name;
         }
 
 
@@ -51,7 +57,7 @@ namespace P5_Code
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-
+            CenterToScreen();
         }
 
         private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
@@ -61,10 +67,20 @@ namespace P5_Code
 
         private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SelectProject selectProject = new SelectProject();
+            SelectProject selectProject = new SelectProject(projectDatabase);
             selectProject.ShowDialog();
             projectTest = selectProject.projectTest;
-            this.Text = "Main -" + projectTest.name;
+            this.Text = "Main - " + projectTest.name;
+        }
+
+        private void createProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddProject addProject = new AddProject(projectDatabase);
+            addProject.ShowDialog();
+           
+            projectTest = addProject.newProject;
+            if(projectTest.name != null)
+                this.Text = "Main - " + projectTest.name;
         }
     }
 }

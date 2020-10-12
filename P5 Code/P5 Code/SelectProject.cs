@@ -16,7 +16,7 @@ namespace P5_Code
     {
         private ListBox listBox2;
         
-        FakeProjectRepository projectDatabase = new FakeProjectRepository();
+       
         public Project projectTest = new Project();
         private Button SelectButton;
         private Button CancelButton;
@@ -24,7 +24,7 @@ namespace P5_Code
 
 
 
-        public SelectProject()
+        public SelectProject(FakeProjectRepository projectDatabase)
         {
             InitializeComponent();
 
@@ -78,6 +78,7 @@ namespace P5_Code
             this.Controls.Add(this.listBox2);
             this.Name = "SelectProject";
             this.Text = "Select Project";
+            this.Load += new System.EventHandler(this.SelectProject_Load_1);
             this.ResumeLayout(false);
 
         }
@@ -110,6 +111,11 @@ namespace P5_Code
         private void CancelButton_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void SelectProject_Load_1(object sender, EventArgs e)
+        {
+            CenterToScreen();
         }
     }
 }

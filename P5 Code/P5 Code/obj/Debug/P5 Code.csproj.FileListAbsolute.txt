@@ -21,3 +21,4 @@ C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.exe.conf
 C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.exe
 C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.pdb
 C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5_Code.SelectProject.resources
+C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5_Code.AddProject.resources

@@ -17,7 +17,7 @@ namespace P5_Code
         public const string NO_PROJECT_FOUND_ERROR = "No project found.";
         public const string EMPTY_PROJECT_NAME_ERROR = "Project name is empty or blank.";
 
-        private static List<Project> projects;
+        public static List<Project> projects;
         
         
         public FakeProjectRepository()

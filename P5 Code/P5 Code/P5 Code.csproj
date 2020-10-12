@@ -65,6 +65,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="AppUser.cs" />
     <Compile Include="FakeProjectRepository.cs" />
     <Compile Include="IProjectRepository.cs" />
@@ -88,6 +91,9 @@
     <Compile Include="SelectProject.cs">
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="AddProject.resx">
+      <DependentUpon>AddProject.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
