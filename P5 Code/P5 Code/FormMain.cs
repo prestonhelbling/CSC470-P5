@@ -18,7 +18,9 @@ namespace P5_Code
         {
             InitializeComponent();
             FakeAppUserRepository userDatabase = new FakeAppUserRepository();
+            
             FormLogin formLogin = new FormLogin();
+            SelectProject selectProject = new SelectProject();
             AppUser user = new AppUser();
             formLogin.ShowDialog();
             while (!user.IsAuthenticated && formLogin.IsOpen)
@@ -28,6 +30,8 @@ namespace P5_Code
             }
             if (!formLogin.IsAuthenticated)
                 Environment.Exit(0);
+
+            selectProject.ShowDialog();
         }
 
 

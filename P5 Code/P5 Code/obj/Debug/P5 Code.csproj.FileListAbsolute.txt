@@ -17,3 +17,7 @@ C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.csproj.G
 C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.csproj.CoreCompileInputs.cache
 C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.exe
 C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5 Code.pdb
+C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.exe.config
+C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.exe
+C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\bin\Debug\P5 Code.pdb
+C:\Users\ander\Source\Repos\CSC470-P5\P5 Code\P5 Code\obj\Debug\P5_Code.SelectProject.resources

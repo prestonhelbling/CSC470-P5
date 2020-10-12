@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace P5_Code
 {
-    class FakeProjectRepository : IProjectRepository
+    public class FakeProjectRepository : IProjectRepository
     {
         public const string NO_ERROR = "";
         public const string MODIFIED_PROJECT_ID_ERROR = "Can not modify the project id.";
@@ -19,13 +19,15 @@ namespace P5_Code
 
         private static List<Project> projects;
         
+        
         public FakeProjectRepository()
         {
             // Default projects on creation of class. 
-            if(projects == null)
-            {
 
-                Project defaultProjectOne = new Project();
+            projects = new List<Project>();
+
+
+            Project defaultProjectOne = new Project();
                 defaultProjectOne.name = "Town House";
 
                 Add(defaultProjectOne, out defaultProjectOne.id);
@@ -39,7 +41,7 @@ namespace P5_Code
                 defaultProjectThree.name = "Large Fence";
 
                 projects.Add(defaultProjectThree);
-            }
+            
         }
 
         public string Add(Project project, out int Id)
