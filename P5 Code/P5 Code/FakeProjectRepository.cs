@@ -28,7 +28,7 @@ namespace P5_Code
                 Project defaultProjectOne = new Project();
                 defaultProjectOne.name = "Town House";
 
-                Add(defaultProjectOne);
+                Add(defaultProjectOne, out defaultProjectOne.id);
 
                 Project defaultProjectTwo = new Project();
                 defaultProjectTwo.name = "Adobe House";
@@ -62,7 +62,9 @@ namespace P5_Code
             else
             {
                 project.id = GetNextId();
+                Id = project.id;
                 projects.Add(project);
+                return NO_ERROR;
             }
         }
 
@@ -82,10 +84,7 @@ namespace P5_Code
         }
         public string Modify(int projectId, Project project)
         {
-            if()
-            {
-
-            }
+            return "test";
         }
 
         public List<Project> GetAll()
