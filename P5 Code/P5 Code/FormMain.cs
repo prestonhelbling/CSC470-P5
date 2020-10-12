@@ -14,11 +14,12 @@ namespace P5_Code
 {
     public partial class FormMain : Form
     {
+        Project projectTest = new Project();
         public FormMain()
         {
             InitializeComponent();
             FakeAppUserRepository userDatabase = new FakeAppUserRepository();
-            Project projectTest = new Project();
+            
             
             FormLogin formLogin = new FormLogin();
             SelectProject selectProject = new SelectProject();
@@ -58,6 +59,12 @@ namespace P5_Code
 
         }
 
-        
+        private void selectProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SelectProject selectProject = new SelectProject();
+            selectProject.ShowDialog();
+            projectTest = selectProject.projectTest;
+            this.Text = "Main -" + projectTest.name;
+        }
     }
 }

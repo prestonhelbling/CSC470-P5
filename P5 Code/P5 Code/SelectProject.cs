@@ -19,6 +19,7 @@ namespace P5_Code
         FakeProjectRepository projectDatabase = new FakeProjectRepository();
         public Project projectTest = new Project();
         private Button SelectButton;
+        private Button CancelButton;
         private static List<Project> projects;
 
 
@@ -37,6 +38,7 @@ namespace P5_Code
         {
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.SelectButton = new System.Windows.Forms.Button();
+            this.CancelButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox2
@@ -58,9 +60,20 @@ namespace P5_Code
             this.SelectButton.UseVisualStyleBackColor = true;
             this.SelectButton.Click += new System.EventHandler(this.SelectButton_Click);
             // 
+            // CancelButton
+            // 
+            this.CancelButton.Location = new System.Drawing.Point(30, 316);
+            this.CancelButton.Name = "CancelButton";
+            this.CancelButton.Size = new System.Drawing.Size(173, 42);
+            this.CancelButton.TabIndex = 2;
+            this.CancelButton.Text = "Cancel";
+            this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            // 
             // SelectProject
             // 
             this.ClientSize = new System.Drawing.Size(489, 404);
+            this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.SelectButton);
             this.Controls.Add(this.listBox2);
             this.Name = "SelectProject";
@@ -92,6 +105,11 @@ namespace P5_Code
             }
 
             this.Close();
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
