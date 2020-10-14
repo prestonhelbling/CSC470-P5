@@ -82,5 +82,13 @@ namespace P5_Code
             if(projectTest.name != null)
                 this.Text = "Main - " + projectTest.name;
         }
+
+        private void removeProjectToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SelectProject removeProject = new SelectProject(projectDatabase);
+            removeProject.ShowDialog();
+
+            projectTest = removeProject.projectTest;
+        }
     }
 }

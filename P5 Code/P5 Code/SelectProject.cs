@@ -22,7 +22,7 @@ namespace P5_Code
         private Button CancelButton;
         private static List<Project> projects;
 
-
+        public static object SelectedItem { get; internal set; }
 
         public SelectProject(FakeProjectRepository projectDatabase)
         {
