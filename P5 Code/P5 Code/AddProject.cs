@@ -41,7 +41,7 @@ namespace P5_Code
             // 
             this.textBox1.Location = new System.Drawing.Point(87, 61);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(344, 20);
+            this.textBox1.Size = new System.Drawing.Size(344, 22);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -50,7 +50,7 @@ namespace P5_Code
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(97, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Project Name:";
             // 
@@ -60,7 +60,7 @@ namespace P5_Code
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(148, 31);
             this.AddButton.TabIndex = 2;
-            this.AddButton.Text = "Add";
+            this.AddButton.Text = "Confirm";
             this.AddButton.UseVisualStyleBackColor = true;
             this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
